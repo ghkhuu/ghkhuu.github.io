@@ -2046,6 +2046,10 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
+		.icon.img:before {
+			font-weight: 900;
+		}
+
 /* Image */
 
 	.image {
@@ -3314,29 +3318,3 @@ input, select, textarea {
 			}
 
 	}
-/* Make image-based icons match the font-based icons in .feature-icons */
-.feature-icons li.icon {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;            /* spacing between image and label */
-  padding: 0.25rem 0.5rem;
-  border-radius: 0.5rem;  /* match the rounded feeling of other icons */
-  vertical-align: middle;
-  color: inherit;
-  background: transparent; /* change if your font icons have a background */
-}
-
-/* Size and crop the image so it visually matches a font icon */
-.feature-icons li.icon img {
-  width: 1.25rem;         /* adjust as needed */
-  height: 1.25rem;
-  object-fit: cover;
-  display: inline-block;
-  vertical-align: middle;
-  border-radius: 6px;     /* small rounding to match icon style; set to 50% for circular */
-}
-
-/* Optional: make the image perfectly circular like many icons */
-.feature-icons li.icon img.round {
-  border-radius: 50%;
-}
