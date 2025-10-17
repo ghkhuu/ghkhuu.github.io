@@ -2046,17 +2046,6 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
-		.icon.img:before {
-			  display: inline-flex;
-			  align-items: center;
-			  gap: 0.5rem;            /* spacing between image and label */
-			  padding: 0.25rem 0.5rem;
-			  border-radius: 0.5rem;  /* match the rounded feeling of other icons */
-			  vertical-align: middle;
-			  color: inherit;
-			  background: transparent; /* change if your font icons have a background */
-		}
-
 /* Image */
 
 	.image {
