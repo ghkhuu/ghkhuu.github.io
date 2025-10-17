@@ -2047,7 +2047,14 @@ input, select, textarea {
 		}
 
 		.icon.img:before {
-			font-weight: 900;
+			  display: inline-flex;
+			  align-items: center;
+			  gap: 0.5rem;            /* spacing between image and label */
+			  padding: 0.25rem 0.5rem;
+			  border-radius: 0.5rem;  /* match the rounded feeling of other icons */
+			  vertical-align: middle;
+			  color: inherit;
+			  background: transparent; /* change if your font icons have a background */
 		}
 
 /* Image */
